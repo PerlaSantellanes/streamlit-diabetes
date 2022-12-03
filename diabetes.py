@@ -1,6 +1,9 @@
+
+import warnings
 import numpy as np
 import pickle
 import streamlit as st
+warnings.filterwarnings("ignore")
 
 # Load the saved model
 loaded_model = pickle.load(open("trained_model.sav", "rb"))
