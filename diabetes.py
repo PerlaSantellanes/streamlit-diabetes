@@ -2,7 +2,7 @@ import numpy as np
 import pickle
 import streamlit as st
 
-st.session_state['answer'] = ''!
+st.session_state['answer'] = ''
 
 st.write(st.session_state)
 
